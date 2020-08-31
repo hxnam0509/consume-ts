@@ -10,8 +10,8 @@
     "tsc": "npm run clean && tsc",
     "tsc:dev": "tsc --watch",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open",
-    "build": "webpack"
+    "start": "npm update && webpack-dev-server --open",
+    "build": "npm update && webpack"
   },
   "keywords": [],
   "author": "",
@@ -20,14 +20,20 @@
     "@types/jquery": "^2.0.46",
     "@types/pluralize": "0.0.29",
     "@types/tinymce": "^4.5.24",
-    "html-webpack-plugin": "^4.3.0",
-    "ts-loader": "^8.0.2",
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.3",
     "typescript": "^3.9.7",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "publish-ts": "1.0.2"
+    "@atlaskit/button": "^14.0.3",
+    "bulma-block-list": "^0.4.0",
+    "publish-ts": "1.0.4",
+    "solar-popup": "^0.5.1",
+    "xconfluence-editor": "^1.0.4"
   }
 }
